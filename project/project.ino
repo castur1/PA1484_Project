@@ -8,6 +8,8 @@
 #include <LV_Helper.h>
 #include <lvgl.h>
 
+#include "my_test.hpp"
+
 // Wi-Fi credentials (Delete these before commiting to GitHub)
 static const char* WIFI_SSID     = "SSID";
 static const char* WIFI_PASSWORD = "PWD";
@@ -113,6 +115,8 @@ void setup()
 // Must have function: Loop runs continously on device after setup
 void loop()
 {
+  int test = Test_Add(5, 8);
+
   lv_timer_handler();
   delay(5);
 }
