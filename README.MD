@@ -1,6 +1,7 @@
-# GROUP 2
+# GROUP 02
 
-# Edvin is always watching
+Edvin is always watching
+Emil
 
 # ESP32-T4-S3-Template
 
