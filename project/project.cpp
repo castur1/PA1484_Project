@@ -106,7 +106,7 @@ void setup()
     while (true) delay(1000);
   }
 
-  beginLvglHelper(amoled);   // init LVGL for this board
+  beginLvglHelperDMA(amoled);   // init LVGL for this board
 
   create_ui();
   connect_wifi();
