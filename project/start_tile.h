@@ -6,7 +6,7 @@
 class StartTile : public Tile
 {
 public:
-    StartTile();
+    void Initialize() override;
 };
 
 #endif
