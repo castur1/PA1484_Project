@@ -7,7 +7,6 @@ class StartTile : public Tile
 {
 public:
     StartTile();
-    ~StartTile();
 };
 
 #endif

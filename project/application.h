@@ -1,3 +1,20 @@
+#include "lvgl.h"
+#include "tile.h"
+
+class Application {
+    lv_obj_t *tileView;
+
+    void ConnectWiFi();
+    void AddTile(Tile *newTile);
+
+public:
+    Application();
+    ~Application();
+
+    void Initialize();
+};
+
+#if 0
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
@@ -22,4 +39,5 @@ private:
     void AddTile(Tile *tile);
 };
 
+#endif
 #endif

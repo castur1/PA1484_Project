@@ -6,9 +6,9 @@
 class Tile
 {
 public:
-    virtual ~Tile() = 0;
-
-    void SetTile(lv_obj_t *tile);
+    void SetTile(lv_obj_t *tile) {
+        this->tile = tile;
+    }
 
 protected:
     lv_obj_t *tile;

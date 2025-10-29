@@ -1,3 +1,5 @@
+#include "lvgl.h"
+
 #include "start_tile.h"
 
 StartTile::StartTile()
@@ -16,8 +18,4 @@ StartTile::StartTile()
     lv_obj_set_style_bg_color(tile, lv_color_white(), 0);
     lv_obj_set_style_text_color(label, lv_color_black(), 0);
     lv_obj_set_style_text_color(label2, lv_color_black(), 0);
-}
-
-StartTile::~StartTile()
-{
 }
